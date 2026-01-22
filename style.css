@@ -139,6 +139,213 @@ nav .nav-parent a{
     color: #FFF8F3;
     cursor: pointer;
 }
- 
+#parent{
+    margin: 0px 120px 120px 120px;
+    width: 1360px;
+    height: 448px; 
+}
+.parent-heading{
+    width: 1360px;
+    height: 153px;
+}
+.parent-heading-title{
+    font-size: 48px;
+    font-style: bold;
+    font-weight: 700;
+    color: #001931;
+    height: 116px;
+    width: 1360px;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 58px;
+    margin-bottom: 16px;
+}
+.child{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    text-align: center;
+    line-height: 20px;
+}
+.parent-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: 1360px;
+    height: 300px;
+}
+.parent-card-info{
+    width: 322px;
+    height: 300px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.parent-card .parent-card-info .background-image{
+    background-color: #F95555;
+    padding: 0;
+}
+.circle{
+    background-color: #F95555;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+}
+.circle img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.parent-card-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 29px;
+    margin-bottom: 16px; 
+}
+#parent-1{
+    height: 840px;
+    width: 1600px;
+    padding: 120px;
+}
+.parent-1-container{
+    width: 1360px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.img-style{
+    width: 600px;
+    height: 600px;
+}
+.img-style img{
+    width: 600px;
+    height: 600px;
+}
+.parent-1-info{
+    width: 700px;
+    height: 396px;
+}
+.parent-1-subtitle{
+    width: 700px;
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.parent-1-title{
+    width: 700px;
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700;
+    font-style: bold;
+    line-height: 58px;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+.child-1{
+     width: 700px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    text-align: left;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.list{
+    width: 700px;
+    list-style: none;
+}
+.list li{
+    color: #001931;
+    font-weight: 500;
+    text-align: left;
+    line-height: 20px;
+    font-size: 16px; 
+}
+.list li img{
+    height: 20px;
+    width: 20px;
+}
+#parent-2{
+    width: 1600px;
+    height: 506px;
+    padding: 0px 120px 120px;
+}
+.parent-2-container{
+    width: 1360px;
+    height: 384px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-color: #F7F6F2;
+}
+.parent-2-start{
+    width: 1280px;
+    height: 112px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.parent-heading-title-1{
+    font-size: 40px;
+    font-style: bold;
+    font-weight: 700;
+    color: #001931;
+    height: 116px;
+    width: 1360px;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 48px;
+}
+.parent-heading-subtitle-2{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    text-align: center;
+    line-height: 20px;
+}
+.parent-2-btn{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.my-btn-shadow{
+    background-color: #469165;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF8F3;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
 
 
