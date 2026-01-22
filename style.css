@@ -1,3 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
+.logo img{
+    width: 139px;
+    height: 60px;
+}
+nav{
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .nav-parent{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    align-items: center;
+}
+nav .nav-parent a{
+    color: #000000;
+    font-size: 16px;
+    line-height: 152%;
+    text-decoration: none;
+}
+.my-btn{
+    background-color: #469165;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF8F3;
+    cursor: pointer;
+    text-align: center;
+}
 
 
